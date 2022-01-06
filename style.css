@@ -1,21 +1,36 @@
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
+
 }
 #vertical{
-    border-left: 2px solid red;
+    border-left: 2px solid hotpink;
     border-left-width: 5px;
- 
-}
-section{
+    line-height: 30px;
+    width:50%;
+    margin-left:0;
+    
+ }
+.flexible{
         display:flex;
+      margin-bottom: 100px;
 }
 h3{
     font-size: 30px;
+    padding-left: 10px;
 }
 h3 span{
-    color: orange;
+    color: hotpink;
     display: block;
+
+}
+h1 span{
+    color:hotpink;
+    
+}
+h1{
+    text-align: center;
+    
 }
 .clr{
     color: orange;
@@ -23,6 +38,8 @@ h3 span{
 .font{
     width: 40%;
     padding-left: 10%;
+    
+    
 }
 .font img{
     width: 80%;
@@ -36,4 +53,69 @@ h3 span{
     padding:10px 40px;
     font-weight: 400;
     
+}
+.center{
+    text-align:center;
+    color: salmon;
+}
+ img{
+     width: 40%;
+ }
+.box{
+  margin:15px;
+  border-radius: 10px;
+  width: 25%;
+  padding:40px;
+  height: 270px;
+  font-size: 15px;
+  box-shadow: 0 0 20px white;
+  background-color:lightslategray;
+
+}
+.box-1{
+    margin:15px;
+    border-radius: 10px;
+    width: 25%;
+    padding:40px;
+    height: 270px;
+    font-size: 15px;
+    box-shadow: 0 0 20px white;
+     background-color: lightgrey;
+    
+
+}
+.box-2{
+    margin:15px;
+    border-radius: 10px;
+    width: 25%;
+    padding:40px;
+    height: 270px;
+    font-size: 15px;
+    box-shadow: 0 0 20px white;
+    background-color: rosybrown;
+
+}
+
+.fontt{
+    width: 40%;
+    float: left;
+    margin-left: 4%;
+    padding-left: 4%;
+}
+
+.again-fontt{
+    width: 40%;
+    float: right;
+    margin-left: 5%;
+    padding-left: 5%;
+}
+h2 span{
+    color: hotpink;
+}
+footer p{
+    height: 100px;
+    text-align: center;
+    background-color: black;
+    color: white;
+  
 }

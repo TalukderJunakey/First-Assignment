@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#vertical{
+    border-left: 2px solid red;
+    border-left-width: 5px;
+ 
+}
+section{
+        display:flex;
+}
+h3{
+    font-size: 30px;
+}
+h3 span{
+    color: orange;
+    display: block;
+}
+.clr{
+    color: orange;
+}
+.font{
+    width: 40%;
+    padding-left: 10%;
+}
+.font img{
+    width: 80%;
+
+}
+.link{
+    border-radius: 4px;
+    text-decoration: none;
+    background-color: rosybrown;
+    color: white;
+    padding:10px 40px;
+    font-weight: 400;
+    
+}

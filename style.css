@@ -13,7 +13,7 @@ body{
  }
 .flexible{
         display:flex;
-      margin-bottom: 100px;
+        margin-bottom: 100px;
 }
 h3{
     font-size: 30px;
@@ -101,6 +101,7 @@ h1{
     float: left;
     margin-left: 4%;
     padding-left: 4%;
+    
 }
 
 .again-fontt{
